@@ -37,7 +37,7 @@
     justify-content: center;
 }
 
-/* qui ci sono le col */
+/* #region COL */
 
 .col_12 {
     width: calc(100%/12 * 12);
@@ -79,6 +79,8 @@
     width: calc(100%/12 * 3);
 }
 
+/* #endregion COL */
+
 /* #endregion utilities */
 
 /* #region debug */
@@ -93,7 +95,7 @@
 
 /* #endregion debug */
 
-.planning {
+.purple_bg {
     background-color: var(--primary);
 }
 
