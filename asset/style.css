@@ -143,9 +143,18 @@ body {
     padding: 0.5rem;
 }
 
-.header_right li {
+.header_right_lg {
+    display: none;
+}
+
+.header_right_lg li {
     color: white;
     padding: 0.5rem;
+}
+
+.blue_card>i {
+    color: var(--secondary);
+    width: 100%;
 }
 
 /* #endregion header */
@@ -158,9 +167,6 @@ body {
     font-size: 14px;
     line-height: 1.5rem;
 }
-
-
-
 
 .card_left a {
     display: inline-block;
