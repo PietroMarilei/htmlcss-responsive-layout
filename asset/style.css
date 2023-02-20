@@ -154,15 +154,33 @@ body {
 .blue_card {
     background-color: var(--light-blue);
     border-radius: 20px;
-    padding: 1rem;
+    padding: 2rem;
+    font-size: 14px;
+    line-height: 1.5rem;
 }
 
-.card_right img {
-    padding: 2rem 2rem 0rem;
-    margin-bottom: -1.3rem;
+
+
+
+.card_left a {
+    display: inline-block;
+    background-color: var(--secondary);
+    border-radius: 20px;
+    padding: 0.5rem 4rem;
+    color: white;
+    text-decoration: none;
+}
+
+#phone {
+    padding-top: 2rem;
+    margin-bottom: -2.5rem;
 }
 
 /* #endregion Demo */
+
+
+
+
 /* #region mediaQueries */
 @media screen and (min-width: 480px) {
     .col_md_12 {
