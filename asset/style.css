@@ -4,11 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 :root {
     --secondary: #2583FD;
     --primary: #9792E4;
+    --light-blue: #b5ddff;
     --white: #ffff;
     --dark-grey: #333333;
     --yellow: #FCC15F;
@@ -16,7 +22,19 @@
 
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+    ;
+}
+
+
+
 /* #region utilities */
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
     width: 80%;
     max-width: 1200px;
@@ -26,6 +44,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem 0;
 }
 
 /* tutte le col_ hanno un padding laterale di 1 rem */
@@ -35,6 +54,10 @@
 
 .centered {
     justify-content: center;
+}
+
+.purple_bg {
+    background-color: var(--primary);
 }
 
 /* #region COL */
@@ -83,9 +106,9 @@
 
 /* #endregion utilities */
 
-.purple_bg {
-    background-color: var(--primary);
-}
+
+
+
 
 /* #region debug */
 .debug [class^="col_"] {
@@ -93,6 +116,7 @@
     border: 1px dashed;
 }
 
+/* cosí si vedono le col */
 .debug #site_header {
     height: 50px;
     background-color: var(--secondary);
@@ -105,8 +129,40 @@
 
 /* #endregion debug */
 
+/* #region header */
+#site_header {
+    background-color: var(--secondary);
+}
 
+#site_header .container {
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header_left img {
+    padding: 0.5rem;
+}
+
+.header_right li {
+    color: white;
+    padding: 0.5rem;
+}
+
+/* #endregion header */
+
+/* #region Demo */
+.blue_card {
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.card_right img {
+    padding: 2rem 2rem 0rem;
+    margin-bottom: -1.3rem;
+}
+
+/* #endregion Demo */
 /* #region mediaQueries */
 @media screen and (min-width: 480px) {
     .col_md_12 {
@@ -148,6 +204,7 @@
     .col_md_3 {
         width: calc(100%/12 * 3);
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -191,6 +248,17 @@
     .col_lg_3 {
         width: calc(100%/12 * 3);
     }
+
+    /* #region Demo */
+    .card_left {
+        width: 50%;
+    }
+
+    .card_right {
+        width: 50%;
+    }
+
+    /* #endregion Demo */
 }
 
 /* #endregion mediaQueries */
