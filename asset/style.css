@@ -83,6 +83,10 @@
 
 /* #endregion utilities */
 
+.purple_bg {
+    background-color: var(--primary);
+}
+
 /* #region debug */
 .debug [class^="col_"] {
     height: 300px;
@@ -91,13 +95,17 @@
 
 .debug #site_header {
     height: 50px;
+    background-color: var(--secondary);
+}
+
+.debug #site_footer {
+    height: 100px;
+    background-color: var(--dark-grey);
 }
 
 /* #endregion debug */
 
-.purple_bg {
-    background-color: var(--primary);
-}
+
 
 /* #region mediaQueries */
 @media screen and (min-width: 480px) {
