@@ -200,7 +200,37 @@ body {
 
 /* #endregion Demo */
 
+/* #region Planning */
+.planning {
+    color: var(--white);
+}
 
+.planning h2 {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.planning p {
+    font-size: 20px;
+    line-height: 2rem;
+    padding: 2rem 0;
+}
+
+.white_card {
+    background-color: var(--white);
+    border-radius: 40px;
+    text-align: center;
+    color: var(--dark-grey);
+    padding: 1rem;
+}
+
+.white_card i {
+    background-color: var(--primary);
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+/* #endregion Planning */
 
 
 /* #region mediaQueries */
