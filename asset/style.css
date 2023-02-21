@@ -517,7 +517,25 @@ footer a {
     }
 
     /* #endregion Demo */
-    /* about us */
+
+    /* #region experts */
+    .experts {
+        text-align: start;
+    }
+
+    .experts .image_cropper {
+        display: float;
+
+    }
+
+    .experts p {
+        display: inline;
+
+    }
+
+    /* #endregion experts */
+
+    /* #region about us */
     .about_us .fa-quote-left {
         color: var(--primary);
         position: relative;
@@ -526,6 +544,8 @@ footer a {
         font-size: 4rem;
 
     }
+
+    /* #endregion about us */
 }
 
 /* #endregion mediaQueries */
