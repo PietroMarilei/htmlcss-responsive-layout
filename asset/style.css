@@ -251,16 +251,17 @@ body {
 }
 
 .image_cropper {
-    display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
     overflow: hidden;
+
 
 }
 
 .purple_card img {
-    object-fit: cover;
+    height: 100%;
 }
 
 .purple_card h3 {
