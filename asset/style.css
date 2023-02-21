@@ -250,10 +250,17 @@ body {
     margin: 2rem;
 }
 
-.purple_card img {
+.image_cropper {
+    display: inline-block;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    overflow: hidden;
+
+}
+
+.purple_card img {
+    object-fit: cover;
 }
 
 .purple_card h3 {
@@ -463,6 +470,17 @@ footer a {
 
     }
 
+    /* #region experts */
+    .purple_card {
+        display: flex;
+    }
+
+    .purple_quotes {
+        text-align: start;
+    }
+
+    /* #endregion experts */
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -517,23 +535,6 @@ footer a {
     }
 
     /* #endregion Demo */
-
-    /* #region experts */
-    .experts {
-        text-align: start;
-    }
-
-    .experts .image_cropper {
-        display: float;
-
-    }
-
-    .experts p {
-        display: inline;
-
-    }
-
-    /* #endregion experts */
 
     /* #region about us */
     .about_us .fa-quote-left {
