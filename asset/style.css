@@ -252,16 +252,17 @@ body {
 
 .image_cropper {
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     overflow: hidden;
-
-
 }
 
 .purple_card img {
+    max-width: none;
     height: 100%;
+    position: relative;
+    left: -25%;
 }
 
 .purple_card h3 {
@@ -478,6 +479,22 @@ footer a {
 
     .purple_quotes {
         text-align: start;
+    }
+
+    .image_cropper {
+        margin: 0 auto;
+        height: 80%;
+        width: 80%;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .purple_card img {
+        max-width: none;
+        height: 100%;
+        position: relative;
+        left: -25%;
     }
 
     /* #endregion experts */
