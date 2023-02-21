@@ -232,6 +232,84 @@ body {
 
 /* #endregion Planning */
 
+/* #region experts */
+.experts {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.experts h2 {
+    color: var(--primary);
+    padding: 2rem 0;
+}
+
+.purple_card {
+    background-color: var(--primary);
+    border-radius: 40px;
+    color: var(--white);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.purple_card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.purple_card h3 {
+    margin: 2rem 0;
+}
+
+/* #endregion experts */
+
+/* #region with_us */
+.with_us h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+
+}
+
+.us_card {
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 2rem;
+    color: var(--dark-grey);
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.us_card h2,
+h3 {
+    color: var(--primary);
+    text-align: left;
+    padding: 2rem 0;
+}
+
+.us_card h2 {
+    font-size: 3rem;
+}
+
+.us_card h3 {
+    font-size: 1.5rem;
+}
+
+.us_card p {
+    padding: 2rem 0;
+}
+
+.with_us a {
+    background-color: var(--primary);
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* #endregion with_us */
 
 /* #region mediaQueries */
 @media screen and (min-width: 768px) {
