@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 2rem 0;
+    margin: 0 -1rem;
 }
 
 /* tutte le col_ hanno un padding laterale di 1 rem */
@@ -159,6 +160,9 @@ body {
     font-size: 14px;
     line-height: 1.5rem;
     margin: 1rem 0;
+    text-align: center;
+    min-height: calc(100% - 1rem);
+
 }
 
 .card_left a {
@@ -180,9 +184,18 @@ body {
     color: var(--white);
 }
 
+.blue_card p {
+    padding: 1rem 0;
+}
+
 .blue_card i {
     color: var(--secondary);
-    width: 40px;
+}
+
+.blue_card h3 {
+    color: var(--secondary);
+    padding: 1rem 0;
+    font-size: 18px;
 }
 
 /* #endregion Demo */
@@ -191,7 +204,7 @@ body {
 
 
 /* #region mediaQueries */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
     .col_md_12 {
         width: calc(100%/12 * 12);
     }
@@ -234,7 +247,7 @@ body {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
 
     .col_lg_12 {
         width: calc(100%/12 * 12);
