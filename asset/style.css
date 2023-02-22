@@ -22,6 +22,11 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 
 /* #region utilities */
@@ -146,6 +151,13 @@ body {
 .header_right_lg li {
     color: white;
     padding: 0.5rem;
+}
+
+#started {
+    color: var(--dark-grey);
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 1 2rem;
 }
 
 /* #endregion header */
@@ -475,6 +487,7 @@ footer a {
     /* #region experts */
     .purple_card {
         display: flex;
+        align-items: center;
     }
 
     .purple_quotes {
@@ -482,7 +495,7 @@ footer a {
     }
 
     .image_cropper {
-        margin: 0 auto;
+        margin: 2rem;
         height: 80%;
         width: 80%;
         aspect-ratio: 1 / 1;
@@ -541,6 +554,15 @@ footer a {
 
     .col_lg_3 {
         width: calc(100%/12 * 3);
+    }
+
+    /* header */
+    .header_right_sml {
+        display: none;
+    }
+
+    .header_right_lg {
+        display: block;
     }
 
     /* #region Demo */
